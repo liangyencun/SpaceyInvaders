@@ -1,0 +1,11 @@
+Spacey Invaders (Alpha b20160412.0)
+
+Fixed: Bullets left over from end of level can kill invaders in the next level if they are on top.
+Fixed: Touch inputs disabled while next level is loading
+Fixed: Bullets now work functionally as an 'access anywhere' map rather than a queue 
+
+New function in Bullet:
+	resetY()
+
+Todo: Add game over screen and pause menu
+Todo: Consider adding 'start next level' dialog

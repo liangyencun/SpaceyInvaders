@@ -1,0 +1,30 @@
+Spacey Invaders (Alpha b20160411.0)
+
+Reworked collision detection; bullet cannot multi-kill
+Added level system
+Added scoring system
+Added saving of high score
+Added game over
+Reset numOfInvaders variable to 0 at the start of every level
+Fixed invader movement bug (entire column killed will update the bounce boundary)
+Removed any flying bullets left in the air after each level
+
+New functions in SpaceThread:
+	setGameState(int gameState)
+New variables in SpaceThread:
+	int gameState
+	final int RUNNING
+	final int PAUSED
+	final int OVER
+New functions in SpaceView:
+	collisionDetection()
+	createInvaders(float level)
+New variables in SpaceView:
+	int numOfInvadersAlive
+	float level
+	float touchDistanceY
+	float touchDistanceX (used for collisionDetection)
+
+Todo: Add sound effects
+Todo: Add game over screen and pause menu
+Todo: (maybe) Add 'start next level' dialog

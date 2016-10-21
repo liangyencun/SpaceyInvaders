@@ -1,0 +1,17 @@
+Spacey Invaders (Alpha b20160413.2)
+
+Added: Game over screen and sound
+Added: Level 'loading' screen
+Fixed: Moved re-enabling of touch handling after time-consuming invader creation was completed
+Balance: Modified UFO scoring to scale with level
+Balance: Modified invader movement speed to level relationship to be linear
+
+New variables in SpaceView
+	boolean highScoreDisplayed
+	Paint p
+New functions in SpaceView
+	int getLevel()
+New variables in SpaceThread
+	final int INIT
+	final int LOADING
+	final int END
