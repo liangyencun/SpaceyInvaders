@@ -1,6 +1,6 @@
 
 SpaceyInvaders: A Space Invaders Game
-Created by Aaron Liao 90811748 and Yen Chun Liang 23647471 for EECS 40 Spring 2016
+Created by Yen Chun Liang 23647471 and Aaron Liao 90811748 for EECS 40 Spring 2016
 
 Compilation Instructions
 - Import project to Android Studio
